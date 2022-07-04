@@ -1,0 +1,85 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+/* Right content styles */
+.content > .right > .txt {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 900;
+}
+
+.content > .right > .txt {
+    color: white;
+}
+
+.content > .right > .txt > .blue-txt {
+    color: rgb(57, 209, 255);
+    margin-left: 4px;
+}
+
+.content > .right > .img img {
+    width: 550px;
+    box-shadow: -10px -10px 25px -8px rgba(0, 0, 0, 0.75);
+}
+
+/* Left content styles */
+.content > .left > .descriptions-wrapper > .description {
+    font-size: 2em;
+    margin-top: -25px;
+    color: white;
+}
+
+.content > .left > .descriptions-wrapper > .description2 {
+    font-size: 1.8em;
+    font-weight: 900;
+    color: #cbcbcb;
+}
+
+.content > .left > .descriptions-wrapper > .description p b {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content > .left > .btn-wrapper {
+    display: flex;
+    justify-content: left;
+}
+
+.content > .left > .btn-wrapper > .sign-up button {
+    margin-right: 15px;
+    font-size: 2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(67, 190, 114);
+    transition: 0.5s;
+}
+
+.content > .left > .btn-wrapper > .sign-up button:hover {
+    background-color: rgb(121, 192, 148);
+    cursor: pointer;
+}
+
+.content > .left > .btn-wrapper > .learn button {
+    margin-right: 15px;
+    font-size: 2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.content > .left > .btn-wrapper > .learn button:hover {
+    background-color: #202020;
+    cursor: pointer;
+}

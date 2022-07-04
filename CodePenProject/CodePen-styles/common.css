@@ -1,0 +1,24 @@
+html {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+::-webkit-scrollbar{
+    height: 5px;
+    width: 8.5px;
+} 
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+} 
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    margin-left: -50px;
+}
+
+.spacer {
+    background-color: rgb(27, 27, 34);
+    height: 100px;
+    margin: -8px -8px;
+}
